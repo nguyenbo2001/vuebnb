@@ -21,7 +21,7 @@ class CreateListingsTable extends Migration
 
             // amenities
             $table->boolean('amenity_wifi')->default(false);
-            $table->boolean('amenity_pet_allowed')->default(false);
+            $table->boolean('amenity_pets_allowed')->default(false);
             $table->boolean('amenity_tv')->default(false);
             $table->boolean('amenity_kitchen')->default(false);
             $table->boolean('amenity_breakfast')->default(false);
